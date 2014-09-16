@@ -11,10 +11,18 @@ The portal is built on Wordpress (http://wordpress.org), a free, mature, and ope
 Hosting
 =========================
 - Our webhost is Bluehost (http://bluehost.com). We have a shared hosting plan, which has scaled well so far. 
-- Neil and Phil have the account into for our hosting account and can access the cPanel. Hard coded DB edits can be done through PHPmyadmin in the cPanel. 
+- Neil and Phil have the account into for our hosting account and can access the cPanel. Hard coded DB edits can be done through PHPmyadmin in the cPanel.
+- Bluehost does nightly backups of FTP and the DB which can be rolled back in case of emergency. This should be done with extreme care and will not restore DB changes occuring after the last nightly backup. More info here: https://my.bluehost.com/cgi/help/719
 - You can check Bluehost's status by visiting their 
     - status page: (https://www.bluehost.com/cgi/serverstatus/) 
     - or twitter: (https://twitter.com/bluehostsupport)
+
+Users
+========================
+- Wordpress has several different user permission levels. Neil and Phil are both superusers who can do all kind of crazy stuff. 
+- Regular users can be added by visiting http://portal.clevelandfoodbank.org/register and filling out the form.
+    - There is currently no waitlist or approval process for new users. They are instantly created. This list should be monitored for Spam bots.
+- Phil/Neil can both elevate other users to higher ranks as needed. 
 
 General Wordpress Usage
 =========================
@@ -38,15 +46,62 @@ General Wordpress Usage
 
 Plugins
 =========================
-
+Plugins allow Wordpress to do a ton of extra stuff and we use a lot of them! Plugins are managed/installed/uninstalled/updated in the Network Admin section acessable by Phil/Neil/other Superusers. 
+- **PLEASE NOTE** take great care when updating plugins as many conflicts can occur. Be diligent and read the release notes in full!
 
 Gravity Forms
 -------------------------
 
+Gravity Forms has some of it's own plugins which are managed in the Network Admin Plugin's Panel:
+- **GP Limit Choices**
+- **Gravity Forms CSS Ready Class Selector**
+- **Gravity Forms Digest Bulk Reports**
+- **Gravity Forms Saved Forms Add-On**
+- **Gravity Forms User Registration Add-On**
+- **Gravity Forms Zapier Add-on**
+- **Gravity Perks**
+- **GP Limit Choices**
+
 S2 Member
 -------------------------
 
-Misc Plugins
+LearnDash LMS
 -------------------------
 
+The Events Calendar / The Events Calendar PRO
+-------------------------
+Add-on Plugin: 
+- **The Events Calendar Category Colors**
+
+TablePress
+-------------------------
+
+
+Misc Plugins
+-------------------------
+- **Add Multiple Users** - *Allows for bulk import of numerous users. We haven't really used this since the big initial  import* 
+- **Auto ThickBox Plus**
+- **bbPress**
+- **Easy Google Fonts**
+- **Featured Video Plus**
+- **Google Analytics**
+- **Insert PHP Code Snippet**
+- **Multisite Robots.txt Manager | MS Robots.txt**
+- **News-Ticker**
+- **NS Cloner - Site Copier**
+- **Responsive Lightbox**
+- **Reveal IDs**
+- **Search & Replace**
+- **Secure HTML5 Video Player**
+- **Simple Local Avatars**
+- **Simple Network Login Log**
+- **Snapshot**
+- **Substitute Displayname**
+- **Ultimate Branding**
+- **User Activity**
+- **User Switching**
+- **WordPress Admin Bar Improved**
+- **WordPress Pop Up Plugin**
+- **WP Smush.it**
+- **WP Super Cache**
 
