@@ -12,7 +12,9 @@ Hosting
 =========================
 - Our webhost is Bluehost (http://bluehost.com). We have a shared hosting plan, which has scaled well so far. 
 - Neil and Phil have the account into for our hosting account and can access the cPanel. Hard coded DB edits can be done through PHPmyadmin in the cPanel. 
-- You can check Bluehost's status by visiting their status page: (https://www.bluehost.com/cgi/serverstatus/) or twitter: (https://twitter.com/bluehostsupport)
+- You can check Bluehost's status by visiting their 
+    - status page: (https://www.bluehost.com/cgi/serverstatus/) 
+    - or twitter: (https://twitter.com/bluehostsupport)
 
 General Wordpress Usage
 =========================
@@ -34,11 +36,17 @@ General Wordpress Usage
 - Additionally, you can choose a category for your event from the menu in the right side bar. This will apply a label and color to the event on the main calendar. 
 - Lost? Here's a bunch of extra info: (http://tri.be/support/faqs/) 
 
+Plugins
+=========================
+
 
 Gravity Forms
-=========================
+-------------------------
 
 S2 Member
-=========================
+-------------------------
+
+Misc Plugins
+-------------------------
 
 
