@@ -10,6 +10,8 @@ The portal is built on Wordpress (http://wordpress.org), a free, mature, and ope
 
 Hosting
 =========================
+Our webhost is Bluehost (http://bluehost.com). We have a shared hosting plan, which has scaled well so far. Neil and Phil have the account into for our hosting account and can access the cPanel. Hard coded DB edits can be done through PHPmyadmin in the cPanel.
+
 
 General Wordpress Usage
 =========================
