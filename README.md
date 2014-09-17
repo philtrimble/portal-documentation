@@ -17,12 +17,18 @@ Hosting
     - status page: (https://www.bluehost.com/cgi/serverstatus/) 
     - or twitter: (https://twitter.com/bluehostsupport)
 
+FTP
+========================
+
+Our Theme
+========================
+
 Users
 ========================
-- Wordpress has several different user permission levels. Neil and Phil are both superusers who can do all kind of crazy stuff. 
+- Wordpress has several different user permission levels. Neil and Phil are both superadmins who can do all kind of crazy stuff. 
 - Regular users can be added by visiting http://portal.clevelandfoodbank.org/register and filling out the form.
     - There is currently no waitlist or approval process for new users. They are instantly created. This list should be monitored for Spam bots.
-- Phil/Neil can both elevate other users to higher ranks as needed. 
+- Phil/Neil can both elevate other users to higher ranks as needed. Most internal staff can be made Editors of the site they need to edit/add content for. 
 
 General Wordpress Usage
 =========================
@@ -79,29 +85,31 @@ TablePress
 
 Misc Plugins
 -------------------------
+To learn more about any of these plugins look them up here: https://wordpress.org/plugins/
+
 - **Add Multiple Users** - *Allows for bulk import of numerous users. We haven't really used this since the big initial  import* 
-- **Auto ThickBox Plus**
-- **bbPress**
-- **Easy Google Fonts**
-- **Featured Video Plus**
-- **Google Analytics**
-- **Insert PHP Code Snippet**
-- **Multisite Robots.txt Manager | MS Robots.txt**
-- **News-Ticker**
-- **NS Cloner - Site Copier**
-- **Responsive Lightbox**
-- **Reveal IDs**
-- **Search & Replace**
-- **Secure HTML5 Video Player**
-- **Simple Local Avatars**
-- **Simple Network Login Log**
-- **Snapshot**
-- **Substitute Displayname**
-- **Ultimate Branding**
+- **Auto ThickBox Plus** - *Allows for lightboxed video pop overs of self hosted video*
+- **bbPress** - *This is the backend for the forum section on each portal site. None are being used right now*
+- **Easy Google Fonts** - *This allows for site wide use of the Karla font*
+- **Featured Video Plus** - *Allows video headers in news stories*
+- **Google Analytics** - *Talks to google analytics without the need for header injection*
+- **Insert PHP Code Snippet** - *Allows direct use of PHP code within the editor through shortcodes (instead of hard codeding directly into the template). Currently used with "News-Ticker"*
+- **Multisite Robots.txt Manager | MS Robots.txt** - *Search engine crawler blacklist used to keep search engines from indexing the portal*
+- **News-Ticker** - *JS based ticker used on the main page of the Agency Portal. Requires "Insert PHP Code Snippet*
+- **NS Cloner - Site Copier** - *Used to make copies of a multi-site instance.*
+- **Responsive Lightbox** - *Image lightbox for posts/pages. May be able to be depricated when WP instal is updated*
+- **Reveal IDs** - *Shows page/post IDs in the backend list*
+- **Search & Replace** - *Allows minor DB edits without having to jump into PHPmyAdmin. Use with caution.*
+- **Secure HTML5 Video Player** - *Allows streaming of selfhosted .mp4 filies within pages/posts*
+- **Simple Local Avatars** - *Allows use of user avatars without the need for the Gravatars service*
+- **Simple Network Login Log** - *Logs user logins*
+- **Snapshot** - *Create ad hoc backups before trying something crazy*
+- **Substitute Displayname** - *Applies "FirstName, LastName - AgencyName" for all news users site wide.*
+- **Ultimate Branding** - *Strips out a bunch of wordpress cruft*
 - **User Activity**
-- **User Switching**
-- **WordPress Admin Bar Improved**
-- **WordPress Pop Up Plugin**
-- **WP Smush.it**
-- **WP Super Cache**
+- **User Switching** - *Allows super admin to assume the role of a logged in user. Great for supplying a new plaintext password to a novice user*
+- **WordPress Admin Bar Improved** - *Cleans up the Admin Bar for users*
+- **WordPress Pop Up Plugin** - *Allows text popovers. Currently used on the Kids Cafe page*
+- **WP Smush.it** - *Optimizes image uploads for web viewing*
+- **WP Super Cache** - *Caches static page elements. Helps with load times. Don't fiddle with this too much - it's easy to really bring the site to a grinding halt.*
 
