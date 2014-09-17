@@ -31,7 +31,9 @@ FTP
 
 Our Theme
 ========================
-Our theme is pretty heavily modified copy of [Support Desk](http://themeforest.net/theme_previews/4321280-support-desk-a-responsive-helpdesk-theme?url_name=support-desk-a-responsive-helpdesk-theme). It has been forked to allow some hard coded changes to the Programs Portal. The entire portal install uses "supportdesk" as it theme except for the programs portal which uses "supportdesk-programs". 
+Our theme is pretty heavily modified copy of [Support Desk](http://themeforest.net/theme_previews/4321280-support-desk-a-responsive-helpdesk-theme?url_name=support-desk-a-responsive-helpdesk-theme). It has been forked to allow some hard coded changes to the Programs Portal. 
+
+The entire portal install uses "supportdesk" as it theme except for the programs portal which uses "supportdesk-programs". 
 - Here is the Main Theme: https://github.com/philtrimble/GCFB-Portal-Theme---Main
 - Here is the Programs Theme: https://github.com/philtrimble/GCFB-Portal-Theme---Programs
 
