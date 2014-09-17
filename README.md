@@ -19,9 +19,21 @@ Hosting
 
 FTP
 ========================
+- Neil and Phil have full access to FTP
+- Additional FTP users can be created in the Bluehost cPanel
+- Wordpress stuff is pretty stock.
+- The first public facing folder is "*ftp://public_html/portal/*" which resolves at http://portal.clevelandfoodbank.org/yourfilehere.pdf
+	- Poke around in this folder and you will find a few directories of manually uploaded stuff. 
+- Theme stuff is found here: "*ftp://public_html/portal/wp-content/themes/*" 
+- Plugin stuff is fund here: "*ftp://public_html/portal/wp-content/plugins/*"
+- Uploaded files (manual through the GUI and through plugins) are found here: "*ftp://public_html/portal/wp-content/uploads/*"
+
 
 Our Theme
 ========================
+Our theme is pretty heavily modified copy of [Support Desk](http://themeforest.net/theme_previews/4321280-support-desk-a-responsive-helpdesk-theme?url_name=support-desk-a-responsive-helpdesk-theme). It has been forked to allow some hard coded changes to the Programs Portal. The entire portal install uses "supportdesk" as it theme except for the programs portal which uses "supportdesk-programs". 
+- Here is the Main Theme: https://github.com/philtrimble/GCFB-Portal-Theme---Main
+- Here is the Programs Theme: https://github.com/philtrimble/GCFB-Portal-Theme---Programs
 
 Users
 ========================
