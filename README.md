@@ -34,7 +34,7 @@ Our Theme
 - Our theme is pretty heavily modified copy of [Support Desk](http://themeforest.net/theme_previews/4321280-support-desk-a-responsive-helpdesk-theme?url_name=support-desk-a-responsive-helpdesk-theme). 
 - It has been forked to allow some hard coded changes to the Programs Portal. 
 - The entire portal install uses "supportdesk" as it theme except for the programs portal which uses "supportdesk-programs".
-- These are hosted on Github and can be used to restored via FTP if someone screws something up. 
+- These are hosted on Github and can be used to restored via FTP if someone screws something up.  
 	- Here is the Main Theme: https://github.com/philtrimble/GCFB-Portal-Theme---Main
 	- Here is the Programs Theme: https://github.com/philtrimble/GCFB-Portal-Theme---Programs
 
@@ -65,6 +65,18 @@ General Wordpress Usage
 - Additionally, you can choose a category for your event from the menu in the right side bar. This will apply a label and color to the event on the main calendar. 
 - Lost? Here's a bunch of extra info: (http://tri.be/support/faqs/) 
 
+Repeted Manual Tasks and Maintainence
+=========================
+- At the end of each month a new month option should be added to the "Monthly Statistics" form on the agency portal. The oldest month on the list should be removed.
+- New menus should be uploaded every quarter for the CFK. These are in a folder on the shared drive but should be double checked with Fatima
+- Kids Cafe: Carli Nelson manages this section pretty independently. 
+- Board Portal: The board packet files should be uploaded in a group via the file manager plugin. Phil and neil are both familiar with this process.
+- The complete task list in Zapier should be checked for any errors: [CLICK HERE](https://zapier.com/goto/?payload=.eJxNjkEKwjAQRa8iA3ZVjBYKEgjioucoYzq00UwTkslCi3fX1o3b9z68v8CAgqAXEOLoUaifkQk0UEohZYWeksC7BqaccVxNx-i83lnv7ANq8G5-fOkkErNW6oXRUTrYwApjVJPLEtLzEm53stK7wZzb9tS0VRaUks2WqYpwn0NJlv4A0-AKG1pzG7DIEd04m27d7Jvj9XfuAwdQRxU:1XZ2Up:keBdLw2VGzHg7YL51_76aqoD89I)
+
+Automated Tasks
+=========================
+- The menu uploads automatically to FTP via a Jet report that is sent up via a .bat file that Neil has running in the server room. This runs at 9:50am, 1:00pm, and 5:00pm.
+
 Plugins
 =========================
 Plugins allow Wordpress to do a ton of extra stuff and we use a lot of them! Plugins are managed/installed/uninstalled/updated in the Network Admin section acessable by Phil/Neil/other Superusers. 
@@ -72,19 +84,23 @@ Plugins allow Wordpress to do a ton of extra stuff and we use a lot of them! Plu
 
 Gravity Forms
 -------------------------
+Gravity Forms is easily our most used plugin. It 
+
 
 Gravity Forms has some of it's own plugins which are managed in the Network Admin Plugin's Panel:
 - **GP Limit Choices**
-- **Gravity Forms CSS Ready Class Selector**
-- **Gravity Forms Digest Bulk Reports**
-- **Gravity Forms Saved Forms Add-On**
-- **Gravity Forms User Registration Add-On**
-- **Gravity Forms Zapier Add-on**
-- **Gravity Perks**
-- **GP Limit Choices**
+- **Gravity Forms CSS Ready Class Selector** - Adds a GUI CSS picker in the Advanced tab of a field 
+- **Gravity Forms Digest Bulk Reports** - Gemerates a email listing new responses to a form. Responses arrive in a .csv attachement. Used for grocery rescue.
+- **Gravity Forms Saved Forms Add-On** - Allows a signed in user to save a form for a later session. Tested but not implemented. Google docs may be a better solution for local backup.
+- **Gravity Forms User Registration Add-On** - Powers the end user registration form for creating a new account. Maps agency name to 'User_Description' in the user profile.
+- **Gravity Forms Zapier Add-on** - Allows GF data to push to Zapier (See Zapier section)
+- **Gravity Perks** - Small suite of GF tweaks from David Smith
+- **GP Limit Choices** - Included in Gravity Perks. Allows radio buttons to hide based up number of times selected
 
 S2 Member
 -------------------------
+- S2 Member manages user permissions on the front end of the site. 
+- The permission levels are as follows:
 
 LearnDash LMS
 -------------------------
