@@ -22,7 +22,7 @@ Hosting
 - Our webhost is Bluehost (http://bluehost.com). We have a shared hosting plan, which has scaled well so far. 
 - Neil and Phil have the account into for our hosting account and can access the cPanel. Hard coded DB edits can be done through PHPmyadmin in the cPanel.
 - Bluehost does nightly backups of FTP and the DB which can be rolled back in case of emergency. This should be done with extreme care and will not restore DB changes occuring after the last nightly backup. More info here: https://my.bluehost.com/cgi/help/719
-- You can check Bluehost's status by visiting their 
+- **IF THE PORTAL IS DOWN** you should check Bluehost's status by visiting their 
     - status page: (https://www.bluehost.com/cgi/serverstatus/) 
     - or twitter: (https://twitter.com/bluehostsupport)
 
