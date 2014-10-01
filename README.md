@@ -86,7 +86,7 @@ General Wordpress Usage
 - Some more info below in the plug in section. 
 - Lost? Here's a bunch of extra info: (http://tri.be/support/faqs/) 
 
-Repeted Manual Tasks and Maintainence
+Repeated Manual Tasks and Maintainence
 =========================
 - At the end of each month a new month option should be added to the "Monthly Statistics" form on the agency portal. The oldest month on the list should be removed.
 - New menus should be uploaded every quarter for the CFK. These are in a folder on the shared drive but should be double checked with Fatima
@@ -97,6 +97,7 @@ Repeted Manual Tasks and Maintainence
 Automated Tasks
 =========================
 - The menu uploads automatically to FTP via a Jet report that is sent up via a .bat file that Neil has running in the server room. This runs at 9:50am, 1:00pm, and 5:00pm.
+- A .csv file of all retail donations submitted by member agencies is sent to Nicole W. every Monday morning. It contains updates from the past week.
 
 Plugins
 =========================
@@ -105,7 +106,7 @@ Plugins allow Wordpress to do a ton of extra stuff and we use a lot of them! Plu
 
 Live by the Plugin, Die by the Plugin (WARNING!)
 -------------------------
-- Only experienced users should try to instal plugins. Wordpress makes basic installs easy but using a lot of plugins is just like taking multiple medications. The more you use, the more chance for a dangerous conflict between two that are not compatable. You should have a basic understanding of how a plugin will affect the site before you jump in and use it.
+- Only experienced users should try to install plugins. Wordpress makes basic installs easy but using a lot of plugins is just like taking multiple medications; The more you use, the more chance for a dangerous conflict between two that are not compatible. You should have a basic understanding of how a plugin will affect the site (ex. where is it installed? Is it using some sort of custom post type? Does it have any dependencies? et cetera) before you jump in and use it.
 - Please visit the multisite documentation in the Introduction (above) to gain a better understanding on how plugins are handled in a multisite install. This is step zero.
 - Be careful to assure that any new plugins are compatable with multisite. Stuff can and will go wrong if you install things willy nilly.
 - It is a good idea to do a local backup of the Functions.php file found in the theme folder on the programs and regular theme file before installing a new plugin. Many plugins make their own changes to this file and if the plugin is unsupported and screws something up it can toast the site. Having a backup on hand can get the site back up in seconds with a quick Ctrl+C/Ctrl+V (or Cmd+C/Cmd+V for the more civilized amoung us...) 
@@ -121,6 +122,7 @@ Gravity Forms
 - I have made a backup of this that you can find here: https://github.com/philtrimble/portal-documentation/blob/gh-pages/formsmain.css
 
 Gravity Forms has some of it's own plugins which are managed in the Network Admin Plugin's Panel:
+
 - **GP Limit Choices**
 - **Gravity Forms CSS Ready Class Selector** - Adds a GUI CSS picker in the Advanced tab of a field 
 - **Gravity Forms Digest Bulk Reports** - Gemerates a email listing new responses to a form. Responses arrive in a .csv attachement. Used for grocery rescue.
