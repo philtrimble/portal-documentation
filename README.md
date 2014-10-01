@@ -153,7 +153,7 @@ S2 Member
 
 LearnDash LMS
 -------------------------
-- Online workshop are created in the same way that standard posts and pages are created. First create a course then a sub lesson and (optionally) an assessment. The quizzing options for the assessment are in a meta box that appears below the body of the lesson but only after the lesson is initially saved. Each logged in user will have their history accessable via their profile.
+- Online workshops are created in the same way that standard posts and pages are created. First create a course then a sub lesson and (optionally) an assessment. The quizzing options for the assessment are in a meta box that appears below the body of the lesson but only after the lesson is initially saved. Each logged in user will have their history accessable via their profile.
 - This is a great walkthrough for a more detailed approach: http://www.uncannyowl.com/wordpress-lms-working-with-learndash/
 
 The Events Calendar / The Events Calendar PRO
