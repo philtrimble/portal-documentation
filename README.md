@@ -1,6 +1,6 @@
 Portal Documentation - V1
 ====================
-*Written Phil Trimble* 
+*Written by Phil Trimble* 
 
 Introduction
 ====================
