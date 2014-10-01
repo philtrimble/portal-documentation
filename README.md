@@ -173,7 +173,7 @@ The Events Calendar / The Events Calendar PRO
 TablePress
 -------------------------
 - TablePress is primarily used to generate the tables that comprise the Agency Directory
-- Use TablePress to upload .csv, .xls, or .xlsx files. Each uploaded file can be edited after the fact. Phil, Neil, and (to a lesser extent) Kristen are familiar with this process. After a table has been edited 
+- Use TablePress to upload .csv, .xls, or .xlsx files. Each uploaded file can be edited after the fact. Phil, Neil, and (to a lesser extent) Kristen are familiar with this process. After a table has been edited it can be dropped onto the page with a shortcode provided after saving the table in the tablepress section of the backend.
 - You can find indepth documentation here: http://tablepress.org/documentation/
 
 Misc Plugins
