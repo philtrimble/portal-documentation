@@ -1,3 +1,7 @@
+Portal Documentation - V1
+====================
+*Written Phil Trimble* 
+
 Introduction
 ====================
 The portal is built on Wordpress (http://wordpress.org), a free, mature, and open CMS built with PHP on a SQL database. This is currently running in a multisite environment comprised of five sites:
