@@ -12,6 +12,7 @@ The portal is built on Wordpress (http://wordpress.org), a free, mature, and ope
 4. *Board Portal* (http://portal.clevelandfoodbank.org/board/)
 5. *Employee Landing Page* (for the breakroom) (http://portal.clevelandfoodbank.org/employee/)
 
+Want more sites?
 - Use NSCloner (read below) If you want to copy a site and make alterations to spin off a new section.
 - Here is the multisite bible for admins: http://codex.wordpress.org/Multisite_Network_Administration Read it twice before messing around too much - it will save you a ton of time and probably a few mistakes!
 
