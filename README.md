@@ -104,6 +104,7 @@ Automated Tasks
 =========================
 - The menu uploads automatically to FTP via a Jet report that is sent up via a .bat file that Neil has running in the server room. This runs at 9:50am, 1:00pm, and 5:00pm.
 - A .csv file of all retail donations submitted by member agencies is sent to Nicole W. every Monday morning. It contains updates from the past week.
+- Workshop registration links expire based on Unix timecode conditional statements. See GravityForms plugin info below.
 
 Plugins
 =========================
@@ -137,6 +138,9 @@ Gravity Forms has some of it's own plugins which are managed in the Network Admi
 - **Gravity Forms Zapier Add-on** - Allows GF data to push to Zapier (See Zapier section)
 - **Gravity Perks** - Small suite of GF tweaks from David Smith
 - **GP Limit Choices** - Included in Gravity Perks. Allows radio buttons to hide based up number of times selected
+
+Other:
+- **Agency Academy Workshop Form** - The AA Workshops are placed on forms, by quarter. Each form contains a hidden field called "Timestamp" that auto-populates the Unix time integer at the time of page load for the end user. Each workshop field contains a conditional statement that only shows the field if the workshop's timestamp is less that the page load integer found in the hidden "Timestamp" field. More info here: http://gravitywiz.com/use-gravity-forms-conditional-logic-with-dates/
 
 Zapier
 -------------------------
